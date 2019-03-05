@@ -12,7 +12,7 @@ alter table department RENAME column name to department_name;
 
 **NOTE: Department names are mentioned as MECH ,ECE ,EEE ,CIVIL ,CSE & IT**
 
-**LOGIN CREDENTIALS**
+## **LOGIN CREDENTIALS**
 EMAIL    : **csys@gmail.com**
 PASSWORD : **12345**
 
