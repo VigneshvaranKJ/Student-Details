@@ -9,13 +9,6 @@ create table student_details(reg_no number(5) primary key, name varchar2(20), po
 
 alter table department RENAME column name to department_name;
 
-
-**NOTE: Department names are mentioned as MECH ,ECE ,EEE ,CIVIL ,CSE & IT**
-
-## **LOGIN CREDENTIALS**
-EMAIL    : **csys@gmail.com**
-PASSWORD : **12345**
-
 ### INSERT A DATA:
 insert into student_details(reg_no,name,points,department_id) values(?,?,?,?)
 
@@ -30,3 +23,9 @@ select reg_no,name,points,department_id from student_details  where reg_no =?
 
 ### SEARCH BY DEPARTMENT_NAME:
 SELECT  reg_no, name, points, department_id from student_details where department_id =(SELECT id from department where department_name = ?)
+
+**NOTE: Department names are mentioned as MECH ,ECE ,EEE ,CIVIL ,CSE & IT**
+
+## **LOGIN CREDENTIALS**
+EMAIL    : **csys@gmail.com**
+PASSWORD : **12345**
