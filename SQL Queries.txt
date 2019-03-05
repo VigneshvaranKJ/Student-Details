@@ -1,5 +1,5 @@
 Table creation:
-**create table Department(id number(3) primary key, name varchar(5), hod varchar(20));**
+create table Department(id number(3) primary key, name varchar(5), hod varchar(20));
 
 create table student_details(reg_no number(5) primary key, name varchar2(20), points number(2),department_id number(3),Foreign key(department_id)references Department(id));
 
