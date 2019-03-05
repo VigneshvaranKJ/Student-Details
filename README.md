@@ -24,7 +24,7 @@ select reg_no,name,points,department_id from student_details  where reg_no =?
 ### SEARCH BY DEPARTMENT_NAME:
 SELECT  reg_no, name, points, department_id from student_details where department_id =(SELECT id from department where department_name = ?)
 
-*******NOTE: Department names are mentioned as MECH ,ECE ,EEE ,CIVIL ,CSE & IT*******
+#### *******NOTE: Department names are mentioned as MECH ,ECE ,EEE ,CIVIL ,CSE & IT*******
 
 ## **LOGIN CREDENTIALS**
 EMAIL    : **csys@gmail.com**
