@@ -4,12 +4,7 @@ A simple beginner JAVA project for maintaining the student details
 ## SQL Queries
 ### Table creation:
 create table department(id number(6) primary key, department_name varchar2(40) not null unique);
-insert into department values(101, 'Civil');
-insert into department values(102, 'Mech');
-insert into department values(103, 'EEE');
-insert into department values(104, 'CSE');
-insert into department values(105, 'ECE');
-insert into department values (106,'IT'); 
+
 
 select *from department;
 
