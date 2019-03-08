@@ -1,7 +1,7 @@
 Table creation:
 create table department(id number(6) primary key, department_name varchar2(40) not null unique);
-insert into department values(101, 'Civil');
-insert into department values(102, 'Mech');
+insert into department values(101, 'CIVIL');
+insert into department values(102, 'MECH');
 insert into department values(103, 'EEE');
 insert into department values(104, 'CSE');
 insert into department values(105, 'ECE');
@@ -9,7 +9,7 @@ insert into department values (106,'IT');
 
 select *from department;
 
-create table student_details(reg_no number(5) primary key, name varchar2(40) not null unique, cgpa float(5) not null ,department_id number(3) not null unique,Foreign key(department_id)references Department(id));
+create table student_details(reg_no number(5) primary key, name varchar2(40) not null unique, cgpa float(5) not null ,department_id number(3) not null,Foreign key(department_id)references Department(id));
 
 create sequence student_details_reg_no_seq
 start with 1
